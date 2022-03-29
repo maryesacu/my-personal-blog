@@ -59,6 +59,8 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   images: {
     domains: ['i.imgur.com'],
+    loader: 'akamai',
+    path: '',
   },
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
   eslint: {
